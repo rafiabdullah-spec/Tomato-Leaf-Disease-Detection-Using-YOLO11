@@ -92,7 +92,7 @@ The run used YOLO11 nano classification weights with early stopping, dropout, we
 
 ### Training Curves
 
-![Training results](assets/results.png)
+![Training results](blob/main/assets/results.png)
 
 The training loss decreases strongly from the first epoch and then gradually stabilizes. Validation loss also drops and remains low after the middle epochs, suggesting that the model converged quickly.
 
@@ -100,13 +100,13 @@ Top-1 accuracy starts high and reaches its best value around epoch 10. After tha
 
 ### Confusion Matrix
 
-![Confusion matrix](assets/confusion_matrix.png)
+![Confusion matrix](blob/main/assets/confusion_matrix.png)
 
 The confusion matrix is strongly diagonal, which means most validation images are classified correctly. Only a small number of off-diagonal marks appear, showing that the model makes relatively few class mistakes.
 
 ### Normalized Confusion Matrix
 
-![Normalized confusion matrix](assets/confusion_matrix_normalized.png)
+![Normalized confusion matrix](blob/main/assets/confusion_matrix_normalized.png)
 
 The normalized confusion matrix confirms that most classes are predicted correctly at a very high rate. A few light off-diagonal cells suggest occasional confusion between visually similar plant disease classes, especially where leaf symptoms can look alike.
 
